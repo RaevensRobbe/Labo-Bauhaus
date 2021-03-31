@@ -1,0 +1,26 @@
+@import '../01-settings/typography.scss';
+@import '../01-settings/colors.scss';
+
+.button{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+
+    margin: 2.5rem;
+    width: 8.5rem;
+    height: 2.5rem;
+    border: 2px solid $themecolor;
+    background-color: none;
+
+
+
+    cursor: pointer;
+    &.text{
+        color: $themecolor;
+        font-family: "futura-pt-bold", sans-serif;
+        text-decoration: none;
+    }
+}

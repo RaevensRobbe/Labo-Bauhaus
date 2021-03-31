@@ -1,15 +1,25 @@
-html {
-    background-color: hotpink;
-}
+// Q1? Wat geldt voor onze hele website?
+// Dat gaan we hier importen en gebruiken in onze App.tsx (globale styles).
+@import './01-settings/colors.scss';
+@import './01-settings/global.scss';
+@import './01-settings/typography.scss';
 
-//settings
+@import './02-tools/functions.scss';
+@import './02-tools/mixins.scss';
 
-//tools
+@import './03-generic/reset.scss';
 
-//generic
+@import './04-elements/page.scss';
 
-//elements
+// Q2? Hoe gaan we herbruikbare CSS afhandelen?
+// 05 Objects
+// 06 Components
+@import './06-components/header.scss';
+@import './06-components/headline.scss';
+@import './06-components/article.scss';
 
-//objects & components -> in react zelf aan bod komen
+// -> react components van maken
 
-// utilities
+// TODO: utilities
+
+@import './07-utilities/colors';
